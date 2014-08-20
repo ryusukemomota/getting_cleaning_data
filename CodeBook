@@ -1,0 +1,117 @@
+CodeBook for the Course Project:
+This is the link to the repository of this human activity analysis. You will find the original data and the description of this analysis.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The following data set is derived from the original data set and is used in my script.
+==================================================================
+features
+activity_labels
+X_test
+X_train
+y_test
+y_train
+subject_test
+subject_train
+
+The followings were parameters used in my run_analysis.R script (ordered in appearance).
+==================================================================
+testdata: X_test labeled with activity name, subject and variables.
+traindata: X_train labeled with activity name, subject and variables.
+ucidata: The merged data set with labels (testdata+traindata).
+ucidata_mean: The columns which contain “-mean()”.
+ucidata_std: The columns which contain “-std()”.
+mean_std: The columns which contain “-mean()” or “-std()”.
+ucidata_ms: The combined data set consists of the measurements on the mean and the standard deviation.
+
+features2: A subset of features extracted for the measurements on the mean and the standard deviation.
+features2m: To replace “-m” with “M”
+features2ms: To replace “-s” with “S”
+features2ms_: To remove hyphens “-”
+features3: To remove parentheses “()”
+ucidata2: The tidy data set which is appropriately labeled with descriptive variable names and submitted for the peer evaluation.
+
+Variables:
+subject: Each row identifies the subject who performed the activities. It ranges from 1 to 30.
+activity: The name of the activities.
+
+The original variable names were converted to the “lowerCamelCase” style. Briefly, all of the hyphens and the parentheses were removed and the first letters of each word, except the first word, were capitalized.
+
+tBodyAccMeanX
+tBodyAccMeanY
+tBodyAccMeanZ
+tBodyAccStdX
+tBodyAccStdY
+tBodyAccStdZ
+tGravityAccMeanX
+tGravityAccMeanY
+tGravityAccMeanZ
+tGravityAccStdX
+tGravityAccStdY
+tGravityAccStdZ
+tBodyAccJerkMeanX
+tBodyAccJerkMeanY
+tBodyAccJerkMeanZ
+tBodyAccJerkStdX
+tBodyAccJerkStdY
+tBodyAccJerkStdZ
+tBodyGyroMeanX
+tBodyGyroMeanY
+tBodyGyroMeanZ
+tBodyGyroStdX
+tBodyGyroStdY
+tBodyGyroStdZ
+tBodyGyroJerkMeanX
+tBodyGyroJerkMeanY
+tBodyGyroJerkMeanZ
+tBodyGyroJerkStdX
+tBodyGyroJerkStdY
+tBodyGyroJerkStdZ
+tBodyAccMagMean
+tBodyAccMagStd
+tGravityAccMagMean
+tGravityAccMagStd
+tBodyAccJerkMagMean
+tBodyAccJerkMagStd
+tBodyGyroMagMean
+tBodyGyroMagStd
+tBodyGyroJerkMagMean
+tBodyGyroJerkMagStd
+fBodyAccMeanX
+fBodyAccMeanY
+fBodyAccMeanZ
+fBodyAccStdX
+fBodyAccStdY
+fBodyAccStdZ
+fBodyAccMeanFreqX
+fBodyAccMeanFreqY
+fBodyAccMeanFreqZ
+fBodyAccJerkMeanX
+fBodyAccJerkMeanY
+fBodyAccJerkMeanZ
+fBodyAccJerkStdX
+fBodyAccJerkStdY
+fBodyAccJerkStdZ
+fBodyAccJerkMeanFreqX
+fBodyAccJerkMeanFreqY
+fBodyAccJerkMeanFreqZ
+fBodyGyroMeanX
+fBodyGyroMeanY
+fBodyGyroMeanZ
+fBodyGyroStdX
+fBodyGyroStdY
+fBodyGyroStdZ
+fBodyGyroMeanFreqX
+fBodyGyroMeanFreqY
+fBodyGyroMeanFreqZ
+fBodyAccMagMean
+fBodyAccMagStd
+fBodyAccMagMeanFreq
+fBodyBodyAccJerkMagMean
+fBodyBodyAccJerkMagStd
+fBodyBodyAccJerkMagMeanFreq
+fBodyBodyGyroMagMean
+fBodyBodyGyroMagStd
+fBodyBodyGyroMagMeanFreq
+fBodyBodyGyroJerkMagMean
+fBodyBodyGyroJerkMagStd
+fBodyBodyGyroJerkMagMeanFreq
