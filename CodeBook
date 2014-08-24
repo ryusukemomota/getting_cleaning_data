@@ -15,7 +15,7 @@ subject_train
 
 The followings were parameters used in my run_analysis.R script (Order of appearance).
 ==================================================================
-a:To label the columns for the first, the second and the rests as "subject","activity" and features[,2], respectively.
+a:To label the columns as "subject","activity" and observations (features[,2]).
 testdata: X_test labeled with activity name, subject and variables.
 traindata: X_train labeled with activity name, subject and variables.
 ucidata: The merged data set with labels (testdata+traindata).
