@@ -13,7 +13,7 @@ y_train
 subject_test
 subject_train
 
-The followings were parameters used in my run_analysis.R script (ordered in appearance).
+The followings were parameters used in my run_analysis.R script (Order of appearance).
 ==================================================================
 testdata: X_test labeled with activity name, subject and variables.
 traindata: X_train labeled with activity name, subject and variables.
